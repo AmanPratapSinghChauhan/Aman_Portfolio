@@ -1,0 +1,45 @@
+.service-container{
+    width:100%;
+    background-color: #151515;
+    color:white;
+}
+.service-container h1{
+   margin:20px;
+   font-size: 40px;
+   border-bottom: 1px solid #EC1939;
+}
+.service-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.card{
+    background-color: #222222;
+    margin:20px;
+    padding:20px;
+    border-radius: 20px;
+    color:white;
+    border:1px solid #393939;
+}
+.card p{
+    font-size: 20px;
+    white-space: nowrap;
+    color:white;
+}
+.card span{
+    color: #e9e9e9;
+}
+.card-1,.card-2,.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card i{
+    color:#EC1939;
+    font-size: 40px;
+}
+.card i:hover{
+    color:white;
+    border-radius: 20px;
+    background-color: #EC1939;
+}

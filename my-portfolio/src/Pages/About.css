@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+.sidebar-container{
+    display: flex;
+    width:250px;
+    align-items: center;
+    position:fixed;
+    bottom:0px;
+    
+}
+.about-page{
+    height: 100%;
+    margin-left: 250px;
+    color:white;
+    background-color: #151515;
+    z-index: 100;
+}
+.about-page h1{
+    margin: 20px;
+    padding-left: 0px;
+    font-size: 40px;
+    border-bottom: 1px solid #EC1839;
+}
+.about-page p{
+    margin:20px;
+    font-size: 24px;
+}
+.about-page p span{
+    color:#EC1939;
+}
+.about-span{
+    margin:20px;
+    font-size: 18px;
+}
+.about-info{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.my-info{
+    flex: 1;
+    display: flex;
+    flex-direction:column ;
+}
+.info-item{
+    color:#E9E9E9;
+    margin:15px;
+    border-bottom: 1px solid #393939;
+}
+.info-item button{
+    width: 140px;
+    border: 1px solid black;
+    background-color:#EC1939;
+    color:white;
+    padding: 9px 15px;
+    margin :10px;
+    white-space: nowrap;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.info-item button:hover{
+    background-color: white;
+    color:#EC1939;
+}
+.info-item p{
+    margin-left: 0px;
+    color:white;
+    font-size: 20px;
+}
+.my-skill{
+    flex:1;
+}
+.skill{
+    margin:25px;
+}
+.skill span{
+    font-size: 20px;
+}
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+  
+  .progress-bar {
+     /* You can adjust this value to represent the progress percentage */
+    height: 100%;
+    background-color: #EC1939;
+    transition: width 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+  .skill-name{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info-but{
+    border: none;
+  }
+  

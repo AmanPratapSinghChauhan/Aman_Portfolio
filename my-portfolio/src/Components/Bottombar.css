@@ -1,0 +1,33 @@
+.bottom-bar{
+    display: none;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    height:40px;
+    background-color:#222222;
+    border-top: 1px solid #393939;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    z-index: 101;
+}
+.bottom-box{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.bottom-item{
+    color:white;
+    text-decoration: none;
+
+}
+.active{
+   color:#EC1839;
+}
+@media (max-width:750px){
+    .bottom-bar{
+        display:block;
+    }
+}
