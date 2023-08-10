@@ -7,7 +7,9 @@ import userRoutes from './Routes/userRoutes.js';
 dotenv.config({path:'./Config/config.env'});
 const app=express();
 app.use(cors({
-    origin:`process.env.FRONTEND_URL`,
+    origin:'https://aman-portfolio-frontend.onrender.com',
+    credentials: true,
+    methods: [ "POST"],
     
 }))
 app.use(bodyParser.urlencoded({extended:true}));
