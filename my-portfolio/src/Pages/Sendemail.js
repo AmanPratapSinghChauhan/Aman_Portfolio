@@ -12,7 +12,7 @@ const Sendemail = () => {
   const navigate=useNavigate();
   const handleSubmit= async(e)=>{
     e.preventDefault();
-    const {data}=await axios.post(`http://localhost:5000/api/v1/sendMail`,{
+    const {data}=await axios.post(`https://portfolio-aman.onrender.com/api/v1/sendMail`,{
       name,email,subject,message
     });
     if(data.success){
