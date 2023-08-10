@@ -7,7 +7,7 @@ import userRoutes from './Routes/userRoutes.js';
 dotenv.config({path:'./Config/config.env'});
 const app=express();
 app.use(cors({
-    origin:'http://localhost:3000',
+    origin:`process.env.FRONTEND_URL`,
     
 }))
 app.use(bodyParser.urlencoded({extended:true}));
