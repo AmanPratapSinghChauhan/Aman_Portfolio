@@ -1,8 +1,16 @@
+.sidebar-container{
+    display: flex;
+    width:250px;
+    align-items: center;
+    position:fixed;
+    bottom:0px;
+    
+}
 .project-box{
+    margin-left: 250px;
     display: flex;
     flex-direction: column;
     width:100%;
-    height: 100vh;
     justify-content: space-between;
     background-color: #151515;
     color:white;
@@ -51,3 +59,4 @@
     font-size: 20px;
     padding-bottom:20px;
 }
+

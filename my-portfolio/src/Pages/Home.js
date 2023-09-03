@@ -7,6 +7,7 @@ import Bottombar from '../Components/Bottombar';
 import amanimg from '../img/aman.JPG';
 import toast,{Toaster} from 'react-hot-toast';
 import { useParams } from 'react-router-dom';
+import Resume from '../img/Resume.pdf';
 
 const Home = () => {
   const {msg}=useParams();
@@ -48,7 +49,7 @@ const Home = () => {
 
           <span className='skill-tag'><pre>My Skills...</pre> <span ref={el}></span></span>
 
-          <button type='button'>Download Resume</button>
+          <a href={Resume} download="Resume">Download Resume</a>
            
 
         </div>
